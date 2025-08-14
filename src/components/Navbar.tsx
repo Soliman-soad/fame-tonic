@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-end md:justify-between p-4 relative">
-      <div className="flex justify-between items-center gap-4 w-[60%] md:w-full">
+      <div className="flex justify-between items-center gap-4 w-[70%] md:w-full">
         <Image
           src="/logo.svg"
           alt="logo"
@@ -41,7 +41,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-20 right-4 bg-white text-black p-4 rounded shadow-lg md:hidden flex flex-col gap-3 w-48">
+        <div className="absolute top-20 right-4 z-20 bg-white text-black p-4 rounded shadow-lg md:hidden flex flex-col gap-3 w-48">
           <Link
             href="/about"
             className="text-lg font-semibold hover:text-primary transition"
