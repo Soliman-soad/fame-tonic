@@ -48,7 +48,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="hidden md:absolute -right-10 top-1/2 -translate-y-1/2 w-[800px] h-[800px] z-0">
+      <div className="hidden lg:block absolute -right-10 top-1/2 -translate-y-1/2 w-[800px] h-[800px] z-0">
         <Image
           src="/hero.png"
           alt="hero-image"
@@ -57,7 +57,7 @@ const HeroSection = () => {
           priority
         />
       </div>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <Image src="/hero.png" alt="hero-image" width={666} height={679} />
       </div>
     </div>
